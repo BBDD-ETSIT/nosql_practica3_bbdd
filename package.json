@@ -2,7 +2,8 @@
     "name": "nosql_practica3",
     "author": "ebarra",
     "license": "GNU",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "debug": true,
     "info": {
         "githubURL": "BBDD-ETSIT/nosql_practica3_bbdd",
         "serverUrl": "https://autocorector.dit.upm.es/",
