@@ -2,14 +2,14 @@
     "name": "nosql_practica3",
     "author": "ebarra",
     "license": "GNU",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "info": {
         "githubURL": "BBDD-ETSIT/nosql_practica3_bbdd",
         "serverUrl": "https://autocorector.dit.upm.es/",
         "courseId": "2110",
         "assignmentId": "16974"
-    }
+    },
     "dependencies": {
-        "mongoose": "^5.9.1"
+        "mongoose": "^6.0.13"
     }
 }

@@ -15,12 +15,12 @@ Enunciado disponible en pdf en Moodle
 El proyecto debe clonarse en el ordenador desde el que se está trabajando:
 
 ```
-$ git clone https://github.com/BBDD-ETSIT/nosql_practica3_bdfi
+$ git clone https://github.com/BBDD-ETSIT/nosql_practica3_bbdd
 ```
 A continuación se debe acceder al directorio de trabajo y abrir el fichero index.html con el editor de la elección del alumno.
 
 ```
-$ cd nosql_practica3_bdfi
+$ cd nosql_practica3_bbdd
 ```
 ## Prueba de la práctica
 
