@@ -6,11 +6,12 @@
     "debug": true,
     "info": {
         "githubURL": "BBDD-ETSIT/nosql_practica3_bbdd",
-        "serverUrl": "https://autocorector.dit.upm.es/",
+        "serverUrl": "https://aat.dit.upm.es/",
         "courseId": "2110",
-        "assignmentId": "16974"
+        "assignmentId": "7831"
     },
     "dependencies": {
+        "autocorector": "^3.1.6",
         "mongoose": "^6.0.13"
     }
 }

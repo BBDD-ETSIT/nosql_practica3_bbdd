@@ -1,19 +1,19 @@
 // IMPORTS
 const path = require('path');
-const User = require('../user.json');
+const User = require('../../user.json');
 
 // CRITICAL ERRORS
 let error_critical = null;
 let dbname = "samples";
 let coleccionresults = "results";
 let coleccionpartials = "partials";
-const URL = 'mongodb://localhost:27017/' + dbname;
+const URL = 'mongodb://127.0.0.1:27017/' + dbname;
 let connection;
 
 const mongoose = require('mongoose');
 let Admin = mongoose.mongo.Admin;
-const Partial = require('./partial');
-const Result = require('./result');
+const Partial = require('../utils/partial');
+const Result = require('../utils/result');
 
 let withDebug = false;
 const debug = (...args) => {
