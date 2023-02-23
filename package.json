@@ -3,7 +3,9 @@
     "author": "ebarra",
     "license": "GNU",
     "version": "0.0.2",
-    "debug": true,
+    "debug": false,
+    "capturesFolder": "miscapturas",
+    "capturesNumber": 3,   
     "info": {
         "githubURL": "BBDD-ETSIT/nosql_practica3_bbdd",
         "serverUrl": "https://aat.dit.upm.es/",

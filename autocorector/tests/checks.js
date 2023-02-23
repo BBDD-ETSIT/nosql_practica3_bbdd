@@ -11,6 +11,7 @@ const URL = 'mongodb://127.0.0.1:27017/' + dbname;
 let connection;
 
 const mongoose = require('mongoose');
+mongoose.set('strictQuery', true);
 let Admin = mongoose.mongo.Admin;
 const Partial = require('../utils/partial');
 const Result = require('../utils/result');
@@ -50,7 +51,6 @@ describe("Using Mongo SHELL", function () {
         this.msg_ok = `Todo ok, hemos conseguido conectar a la base de datos "${dbname}" y la colección "${coleccionpartials}" y la colección "${coleccionresults}"  `;
         this.msg_err = `No se ha podido conectar a las colecciones pedidas. Comprueba que tienes una base de datos de nombre ${dbname} y la colección "${coleccionpartials}" y la colección "${coleccionresults}" .`;
           return new Promise(function(resolve, reject) {
-            console.log("XXX")
             try {
                 new Admin(mongoose.connection.db).listDatabases(function(err, result) {
                     var allDatabases = result.databases.map((dat)=>dat.name);
