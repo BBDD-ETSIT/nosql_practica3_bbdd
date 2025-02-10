@@ -10,7 +10,7 @@
         "githubURL": "BBDD-ETSIT/nosql_practica3_bbdd",
         "serverUrl": "https://aat.dit.upm.es/",
         "courseId": "2110",
-        "assignmentId": "440"
+        "assignmentId": "8467"
     },
     "dependencies": {
         "autocorector": "^3.1.6",
